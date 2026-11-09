@@ -1,0 +1,9 @@
+FROM golang:1.27-alpine AS builder
+WORKDIR /app
+COPY . .
+RUN CGO_ENABLED=0 go build -ldflags="-w -s" -o dist/build-prod .
+
+FROM scratch
+COPY --from=builder /app/dist/build-prod /build-prod
+EXPOSE 8080
+ENTRYPOINT ["/build-prod"]

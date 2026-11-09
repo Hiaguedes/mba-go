@@ -1,0 +1,8 @@
+POST http://localhost:8000/products
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3ODQxNTYyMzAsInN1YiI6IjcyOGNkZWY1LTczZjYtNDA5MS05NWFmLTg2MjdhZTYzMGFmZCJ9.y9JYCwQpmpdps8zBfIrA2JdOe_M7BWMbblcjVE1G3bg
+
+{
+    "name": "Product test middleware",
+    "price": 1000.99
+}

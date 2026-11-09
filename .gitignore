@@ -1,0 +1,31 @@
+# Binaries and executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test artifacts
+*.test
+*.out
+*.coverprofile
+profile.cov
+
+# Dependency directories
+vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Local environment variables
+.env
+
+# build files
+dist/
+
+11-busca-CEP/ceps.txt
+
+*.db
+
+*/tmp

@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "mba-go",
+			"path": "../.."
+		},
+		{
+			"name": "18-UOW",
+			"path": "../../../Downloads/goexpert-main/18-UOW"
+		},
+		{
+			"path": "../../../Downloads/goexpert-main/15-UploadS3"
+		}
+	],
+	"settings": {}
+}
